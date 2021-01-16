@@ -2,7 +2,7 @@ class NoAdminError(Exception):
     pass
 
 
-class User(NoAdminError):
+class User:
     def __init__(self, name, admin):
         self.name = name
         self.admin = admin
