@@ -1,0 +1,8 @@
+setup.py
+explorer/__init__.py
+explorer/script.py
+explorer.egg-info/PKG-INFO
+explorer.egg-info/SOURCES.txt
+explorer.egg-info/dependency_links.txt
+explorer.egg-info/not-zip-safe
+explorer.egg-info/top_level.txt
