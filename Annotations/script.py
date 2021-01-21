@@ -31,7 +31,7 @@ def concat_dfs(a: pd.DataFrame, b: pd.DataFrame, axis: int = 1) -> "2 gestackte 
         concatenates two DataFrames and returns a new dataframe, concatenated by rows or columns, depending on the axis, which is 1 (column) by default.
     """
 
-    return pd.concat(a, b)
+    return pd.concat(a, b, axis=1)
 
 
 concat_dfs()
